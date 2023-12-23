@@ -1,0 +1,195 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.over{
+    display: flex;
+    flex-direction: row;
+}
+.te{
+    margin-left: 42%;
+    font-size: 40px;
+}
+.pe{
+    font-size: 40px;
+}
+.dm{
+    display: flex;
+}
+.dem{
+    display: flex;
+    justify-content: center;
+}
+.line{
+    border-bottom: 5px solid black;
+    width:60px;
+}
+.first{
+    width:50%;
+    background-color: antiquewhite;
+    height: 100vh;
+    position: fixed;
+}
+.labe{
+    margin-top: 70px;
+    margin-left: 30px;
+
+}
+.k{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 150px;
+    padding: 20px;
+
+}
+.l{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    justify-content: center;
+
+
+}
+i{
+    margin: 10px;
+
+}
+.o{
+    text-align: center;
+    opacity: 0.5;
+
+}
+.second{
+    padding: 10px;
+    width: 50%;
+    justify-content: center;
+    position: relative;
+    left:50%;
+    background-color: rgba(255, 255, 224, 0.276);
+}
+.q{
+    opacity: 0.6;
+}
+h2{
+    color: navy;
+    margin-top: 20px;
+}
+.all{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    box-shadow: 5px 5px 10px whitesmoke;
+}
+.lol{
+    font-size: 30px;
+    text-align: center;
+}
+label{
+    font-size: 20px;
+}
+span{
+    color:red;
+}
+.each{
+    height: 100px;
+    width: 50%;
+    padding: 10px;
+}
+
+input[type=text]{
+    height:50px;
+    width: 270px;
+    opacity:0.5;
+}
+input[type=tel]{
+    height:50px;
+    width: 270px;
+    opacity:0.5;
+}
+input[type=date]{
+    height:50px;
+    width: 270px;
+    opacity:0.5;
+}
+input[type=email]{
+    height:50px;
+    width: 270px;
+    opacity:0.5;
+}
+
+select{
+    height:50px;
+    width: 270px;
+
+}
+ select option{
+    background-color: #f0f0f0;
+    color: #333;
+}
+.end{
+    width:100%;
+    padding: 20px;
+    padding-left: 7px;
+}
+button{
+    padding: 20px;
+    width:100%;
+    background-color: rgba(0, 0, 128, 0.642);
+    color:white;
+}
+.pin{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+@media(max-width:900px){
+.first{
+    display: none;
+}
+.second{
+    width:100%;
+    left:0%;
+}
+.all{
+    flex-direction: column;
+}
+.each{
+    width:100%;
+}
+input[type=text]{
+    width:100%;
+}
+input[type=email]{
+    width:100%;
+}
+input[type=date]{
+    width:100%;
+}
+input[type=tel]{
+    width:100%;
+}
+select{
+    width:100%;
+}
+}
+@media(max-width:600px){
+    .te{
+        margin-left: 30%;
+    }
+}
